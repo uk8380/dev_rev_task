@@ -1,0 +1,59 @@
+body{
+    background: #E0FFFF;
+}
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png'); 
+  background-position: 10px 7px; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+  border-radius: 4px;
+}
+#myTable {
+  border-collapse: collapse; 
+  width: 100%; 
+  border: 1px solid #ddd; 
+  font-size: 18px; 
+  border-radius: 4px;
+}
+#myTable th, #myTable td {
+  text-align: left; 
+  padding: 12px; 
+}
+#myTable tr {
+  
+
+  border-bottom: 1px solid #ddd; 
+}
+#myTable tr.header, #myTable tr:hover {
+  
+  background-color: #f1f1f1;
+}
+#mytable tr:nth-child(even) {background-color: #f2f2f2;}
+#mytable tr:nth-child(odd) {background-color: #ffffff;}
+#mytable tr:hover {background-color: #ddd;}
+#mytable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.total-books{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+.total-books:hover{
+    background-color: #ddd;
+    color: black;
+}
